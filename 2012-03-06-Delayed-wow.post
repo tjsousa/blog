@@ -1,0 +1,33 @@
+---
+title: A delayed wow is delayed
+date: 2012-03-06
+tags: post
+format: md
+---
+
+## A tiny favourite
+
+I keep a personal list on [Evernote](http://www.evernote.com/) called "tiny favourite things that make me happy". It's meant to keep anything on a day-by-day basis that happens to be both small in its scope but highly significant for me experiencing it.
+
+My most recent entry involves Vemedio's [Instacast](http://vemedio.com/instacast) and means something to what I think this blog is about, so I decided to share it.
+
+[This iPhone app](http://itunes.apple.com/pt/app/instacast/id420368235?mt=8) (along with its bigger cousin [for the iPad](http://itunes.apple.com/pt/app/instacast-hd/id478853570?mt=8)) is an alternative to iTunes to manage your podcast subscriptions. I was motivated to try it after getting tired of ever-synching my iPhone to iTunes just to get podcasts updated. [Flattr](http://flattr.com) integration, iCloud sync between devices and easy access to show notes are also valuable additions.
+
+Still, what made Instacast into my list was a simple feature of its media player: when you pause, it saves the playback state; when you resume later (and this is the favourite), **if later is not afterwards** (say, the next ten minutes), **it will playback from a few seconds before** that saved position. 
+
+This is extremely simple but its impact is profound. It gives you context. The first time it happened I didn't even notice. It just made sense. And, when I did notice, I actually had to wait more than ten minutes to double check… So, a few hours later, when I got back to my podcast listening, in a natural yet surprising way: "wow, it does work!"
+
+
+## Designing for the user experience
+
+This need, which I clearly had (first thought after resuming a podcast was always somewhere between "why am i listening to this?" and "what are these people talking about?"), was never roughly articulated nor even noticed by me as a podcast listener. Even Apple, that is known for having this kind of care for the user experience, had never introduced it in its music app (which happens to play podcasts as well). It took some people (thanks [@Vemedio](https://twitter.com/#!/vemedio)) a whole lot of care and work to think about every detail of podcast listening to come up with this feature. Which I couldn't  even name… ([I found later](http://prefs.org/post/8517054363/instacast), when researching for this post, that this feature is called __replay after pause__ - now it seems obvious!).
+
+John Maeda, who you can [follow on Twitter](https://twitter.com/#!/johnmaeda), put this feeling into words in his book ["Laws of Simplicity"](http://lawsofsimplicity.com/), refering to [Muji's design](http://www.muji.eu/):
+
+> "Muji doesn't design for a quick "wow" reaction, but for the "delayed-wow" instead. After owning it a while you think, "Wow!""-- <cite>John Maeda, "Laws of Simplicity"</cite>
+
+When designing for user experience, your aim is to delight the user. When designing for user requested features, you may only live to meet his expectations. And this is a fundamental difference: where the first generates trust and forms a long term relationship with the product, the second will only exist until a cheaper alternative emerges.
+
+
+
+For comments, follow [@tjsousa](https://twitter.com/#!/tjsousa) on Twitter.

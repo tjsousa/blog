@@ -1,0 +1,48 @@
+---
+title: Blogging through iA Writer - only! - ubiquitously
+date: 2012-02-15
+tags: post
+format: md
+---
+
+## The motivation
+
+This is a kind of bootstrapping post about my new writing experience. With the help of some simple yet powerful tools, it is possible to simplify blogging to its true essence: ideas and a text editor.
+
+It may take a bit of hacking to glue things together but, concerning the user experience, this is how streamlined it gets:
+
+![iA Writer on iPad]({{ BASE_PATH }}/images/iAwriter.jpg)
+
+And here are the tools used:
+
+* [Jekyll](http://jekyllrb.com/), as the static site generator.
+* [GitHub](https://github.com), to host the blog using git for deploy.
+* [Dropbox](https://www.dropbox.com/), to save new posts from any device.
+* [iA Writer](http://www.iawriter.com/), to edit posts on the Mac and iPad.
+
+Jekyll is a static site generator written by Github's co-founder [Tom Preston-Werner](http://tom.preston-werner.com/). (You can find more information [here](https://github.com/mojombo/jekyll/wiki) and follow this tutorial from Jekyll-Bootstrap [project](http://jekyllbootstrap.com/), which is itself cloneable from Github to help you get started).
+
+Github pages will recognize your Jekyll-enabled website which automatically rebuilds itself when new changes are pushed to the repository (More information [here](http://pages.github.com/)).
+
+The act of creating a new post becomes as simple as saving a new file inside `_posts`, written in any of Jekyll's supported formats (i'm using John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) for its ease of use).
+
+The last bit of glue is a mix of Dropbox and OS X magic. Linking a folder in Dropbox to the local Git repository enables posting from every device where you have configured Dropbox and a text editor. To fully automate the process i use Automator's `Folder Actions` to watch the Dropbox linked folder and `git commit` every change. A simple Git hook goes all the way to GitHub, `git push`ing on every commit.
+
+## The experience
+
+In the end, to make a post on the blog, i need to:
+
+1. Open iA Writer on the Mac or iPad.
+2. Edit my post using Markdown syntax.
+3. Save it to Dropbox.
+4. Wait 5 seconds for it to show up on Github.
+ 
+<br />
+iA Writer is a joy to use on the Mac but it's even more profoundly inspiring when used on the go with just an iPad and an Apple Bluetooth Keyboard: where beautiful design meets true simplicity!
+
+
+> “The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.” 
+> > <cite> Mark Weiser in “The Computer for the Twenty-First Century”</cite>
+
+
+For comments and questions, follow me on twitter [@tjsousa](http://twitter.com/tjsousa)
